@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
+    "resolveJsonModule": true,
     "module": "commonjs",
     "target": "esnext",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "./lib"
   },
+  "include": [
+    "./src"
+  ],
   "exclude": [
     "node_modules"
   ]

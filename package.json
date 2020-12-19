@@ -1,10 +1,18 @@
 {
   "name": "poll",
   "devDependencies": {
+    "@prisma/cli": "2.13.0",
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.14",
     "typescript": "^4.1.3"
   },
   "dependencies": {
+    "@prisma/client": "2.13.0",
+    "@types/sqlite3": "^3.1.6",
+    "express": "^4.17.1",
     "fastify": "^3.9.2",
-    "slash-create": "^1.1.2"
+    "slash-create": "https://github.com/Snazzah/slash-create.git#master",
+    "sqlite3": "^5.0.0",
+    "typed-emitter": "^1.3.1"
   }
 }
