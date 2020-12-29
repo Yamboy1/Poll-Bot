@@ -7,20 +7,6 @@
   resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-0.1.6.tgz#9e9a7637f4e4e0688fd8b2b5c63133c91607682c"
   integrity sha512-utRNxnd9kSS2qhyivo9lMlt5qgAUasH2gb7BEOn6p0efFh24gjGomHzWKMAPn2hEReOPQZCJaRKoURwRotKucQ==
 
-"@paljs/plugins@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@paljs/plugins/-/plugins-2.9.0.tgz#afdc1a8db693a486d16d596ef06bdd18298f29b5"
-  integrity sha512-vVgoELv+CgWY8WwXz93ppbiAIu7VNyyKZ8K6OO5UBk1nPImtDztEGcdL2dbXpmUBMnlH8dFomnCHp6eN3b/N3Q==
-  dependencies:
-    "@paljs/types" "^2.9.0"
-    graphql-fields "2.0.3"
-    graphql-tag "2.11.0"
-
-"@paljs/types@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@paljs/types/-/types-2.9.0.tgz#a963335a3230d5c52cf5adc4d17fcaebb2c76f2f"
-  integrity sha512-zCQaeaxNU30GevxlRPdW+goTRiej36mq2WoJbH3KJp/WikvTBLzJFrbv7RK2owHGsFOYTMAN8lk60xdnG5+Xlg==
-
 "@prisma/bar@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@prisma/bar/-/bar-0.0.1.tgz#088c4fbbb79c588391437ade9fd3a85527e753b3"
@@ -269,16 +255,6 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-
-graphql-fields@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/graphql-fields/-/graphql-fields-2.0.3.tgz#5e68dff7afbb202be4f4f40623e983b22c96ab8f"
-  integrity sha512-x3VE5lUcR4XCOxPIqaO4CE+bTK8u6gVouOdpQX9+EKHr+scqtK5Pp/l8nIGqIpN1TUlkKE6jDCCycm/WtLRAwA==
-
-graphql-tag@2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.11.0.tgz#1deb53a01c46a7eb401d6cb59dec86fa1cccbffd"
-  integrity sha512-VmsD5pJqWJnQZMUeRwrDhfgoyqcfwEkvtpANqcoUG8/tOLkwNgU9mzub/Mc78OJMhHjx7gfAMTxzdG43VGg3bA==
 
 http-errors@1.7.2:
   version "1.7.2"
