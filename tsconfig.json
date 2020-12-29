@@ -4,10 +4,12 @@
     "module": "commonjs",
     "target": "esnext",
     "sourceMap": true,
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "strict": true
   },
   "include": [
-    "./src"
+    "./src",
+    "./config.json"
   ],
   "exclude": [
     "node_modules"
