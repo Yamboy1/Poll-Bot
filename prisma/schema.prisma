@@ -12,11 +12,12 @@ generator client {
 }
 
 model GuildPoll {
-  id        Int       @default(autoincrement()) @id
-  expiresAt DateTime
-  name      String
-  guildID   String
-  options   PollOption[]
+  id             Int     @default(autoincrement()) @id
+  name           String
+  normalizedName String  @unique
+  guildID        String
+  options        PollOption[]
+  @@unique([guildID, normalizedName])
 }
 
 model PollOption {
@@ -24,4 +25,14 @@ model PollOption {
   name      String
   poll      GuildPoll @relation(fields: [pollID], references: [id])
   pollID    Int
+  answers   PollAnswer[]
+}
+
+model PollAnswer {
+  id        Int        @default(autoincrement()) @id
+  userID    String     @unique
+  option    PollOption @relation(fields: [optionID], references: [id])
+  optionID  Int
+
+
 }
